@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEDF3BD91DF80859003F5EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3BD81DF80859003F5EBC /* AppDelegate.swift */; };
+		EEDF3BDB1DF80859003F5EBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3BDA1DF80859003F5EBC /* ViewController.swift */; };
+		EEDF3BDE1DF80859003F5EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3BDC1DF80859003F5EBC /* Main.storyboard */; };
+		EEDF3BE01DF80859003F5EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3BDF1DF80859003F5EBC /* Assets.xcassets */; };
+		EEDF3BE31DF80859003F5EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3BE11DF80859003F5EBC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEDF3BD51DF80859003F5EBC /* IMMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF3BD81DF80859003F5EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEDF3BDA1DF80859003F5EBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEDF3BDD1DF80859003F5EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEDF3BDF1DF80859003F5EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDF3BE21DF80859003F5EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEDF3BE41DF80859003F5EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDF3BD21DF80859003F5EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEDF3BCC1DF80859003F5EBC = {
+			isa = PBXGroup;
+			children = (
+				EEDF3BD71DF80859003F5EBC /* IMMusicPlayer */,
+				EEDF3BD61DF80859003F5EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDF3BD61DF80859003F5EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF3BD51DF80859003F5EBC /* IMMusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDF3BD71DF80859003F5EBC /* IMMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF3BD81DF80859003F5EBC /* AppDelegate.swift */,
+				EEDF3BDA1DF80859003F5EBC /* ViewController.swift */,
+				EEDF3BDC1DF80859003F5EBC /* Main.storyboard */,
+				EEDF3BDF1DF80859003F5EBC /* Assets.xcassets */,
+				EEDF3BE11DF80859003F5EBC /* LaunchScreen.storyboard */,
+				EEDF3BE41DF80859003F5EBC /* Info.plist */,
+			);
+			path = IMMusicPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDF3BD41DF80859003F5EBC /* IMMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDF3BE71DF80859003F5EBC /* Build configuration list for PBXNativeTarget "IMMusicPlayer" */;
+			buildPhases = (
+				EEDF3BD11DF80859003F5EBC /* Sources */,
+				EEDF3BD21DF80859003F5EBC /* Frameworks */,
+				EEDF3BD31DF80859003F5EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMMusicPlayer;
+			productName = IMMusicPlayer;
+			productReference = EEDF3BD51DF80859003F5EBC /* IMMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDF3BCD1DF80859003F5EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = imWallet;
+				TargetAttributes = {
+					EEDF3BD41DF80859003F5EBC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEDF3BD01DF80859003F5EBC /* Build configuration list for PBXProject "IMMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDF3BCC1DF80859003F5EBC;
+			productRefGroup = EEDF3BD61DF80859003F5EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDF3BD41DF80859003F5EBC /* IMMusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDF3BD31DF80859003F5EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF3BE31DF80859003F5EBC /* LaunchScreen.storyboard in Resources */,
+				EEDF3BE01DF80859003F5EBC /* Assets.xcassets in Resources */,
+				EEDF3BDE1DF80859003F5EBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDF3BD11DF80859003F5EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF3BDB1DF80859003F5EBC /* ViewController.swift in Sources */,
+				EEDF3BD91DF80859003F5EBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEDF3BDC1DF80859003F5EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDF3BDD1DF80859003F5EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDF3BE11DF80859003F5EBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDF3BE21DF80859003F5EBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDF3BE51DF80859003F5EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEDF3BE61DF80859003F5EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDF3BE81DF80859003F5EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imWallet.IMMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEDF3BE91DF80859003F5EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imWallet.IMMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDF3BD01DF80859003F5EBC /* Build configuration list for PBXProject "IMMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF3BE51DF80859003F5EBC /* Debug */,
+				EEDF3BE61DF80859003F5EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDF3BE71DF80859003F5EBC /* Build configuration list for PBXNativeTarget "IMMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF3BE81DF80859003F5EBC /* Debug */,
+				EEDF3BE91DF80859003F5EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDF3BCD1DF80859003F5EBC /* Project object */;
+}
