@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EED188C81DFA7CB80033D322 /* in.caf in Resources */ = {isa = PBXBuildFile; fileRef = EED188C71DFA7CB80033D322 /* in.caf */; };
+		EED188CA1DFA99D60033D322 /* UIBarButtonItem+IMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED188C91DFA99D60033D322 /* UIBarButtonItem+IMExtension.swift */; };
+		EED188CC1DFAA4950033D322 /* 许茹芸 - 如果云知道.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EED188CB1DFAA4950033D322 /* 许茹芸 - 如果云知道.mp3 */; };
+		EED188CE1DFAA4A40033D322 /* 林忆莲 - 伤痕(Live) - live.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EED188CD1DFAA4A40033D322 /* 林忆莲 - 伤痕(Live) - live.mp3 */; };
+		EED188D01DFAA4AB0033D322 /* 伍佰 - 浪人情歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EED188CF1DFAA4AB0033D322 /* 伍佰 - 浪人情歌.mp3 */; };
+		EED188D21DFAA4B10033D322 /* 伍佰 - 挪威的森林.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EED188D11DFAA4B10033D322 /* 伍佰 - 挪威的森林.mp3 */; };
+		EED188D41DFAA4BB0033D322 /* 许巍 - 故乡.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EED188D31DFAA4BB0033D322 /* 许巍 - 故乡.mp3 */; };
+		EED188D61DFAA5690033D322 /* 周华健 - 爱相随.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EED188D51DFAA5690033D322 /* 周华健 - 爱相随.mp3 */; };
+		EED188D81DFAA60D0033D322 /* 周华健 - 花心.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EED188D71DFAA60D0033D322 /* 周华健 - 花心.mp3 */; };
+		EED188DA1DFAA6190033D322 /* 李健 - 风吹麦浪.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EED188D91DFAA6190033D322 /* 李健 - 风吹麦浪.mp3 */; };
 		EEDF3BD91DF80859003F5EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3BD81DF80859003F5EBC /* AppDelegate.swift */; };
 		EEDF3BDB1DF80859003F5EBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3BDA1DF80859003F5EBC /* ViewController.swift */; };
 		EEDF3BDE1DF80859003F5EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3BDC1DF80859003F5EBC /* Main.storyboard */; };
 		EEDF3BE01DF80859003F5EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3BDF1DF80859003F5EBC /* Assets.xcassets */; };
 		EEDF3BE31DF80859003F5EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3BE11DF80859003F5EBC /* LaunchScreen.storyboard */; };
+		EEDF3BED1DF80C89003F5EBC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3BEC1DF80C89003F5EBC /* UIColor+Extension.swift */; };
+		EEFBA6AF1DF9086C0085589D /* IMMusicPlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBA6AE1DF9086C0085589D /* IMMusicPlayManager.swift */; };
+		EEFBA6B11DF939DF0085589D /* IMMusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBA6B01DF939DF0085589D /* IMMusicModel.swift */; };
+		EEFBA6B31DF94A5F0085589D /* IMMusicPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBA6B21DF94A5F0085589D /* IMMusicPlayViewController.swift */; };
+		EEFBA6B51DF94A710085589D /* IMSoundPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBA6B41DF94A710085589D /* IMSoundPlayViewController.swift */; };
+		EEFBA6BA1DF95CBE0085589D /* 刀郎 - 谢谢你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEFBA6B81DF95CBE0085589D /* 刀郎 - 谢谢你.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EED188C71DFA7CB80033D322 /* in.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = in.caf; sourceTree = "<group>"; };
+		EED188C91DFA99D60033D322 /* UIBarButtonItem+IMExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+IMExtension.swift"; sourceTree = "<group>"; };
+		EED188CB1DFAA4950033D322 /* 许茹芸 - 如果云知道.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "许茹芸 - 如果云知道.mp3"; sourceTree = "<group>"; };
+		EED188CD1DFAA4A40033D322 /* 林忆莲 - 伤痕(Live) - live.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林忆莲 - 伤痕(Live) - live.mp3"; sourceTree = "<group>"; };
+		EED188CF1DFAA4AB0033D322 /* 伍佰 - 浪人情歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "伍佰 - 浪人情歌.mp3"; sourceTree = "<group>"; };
+		EED188D11DFAA4B10033D322 /* 伍佰 - 挪威的森林.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "伍佰 - 挪威的森林.mp3"; sourceTree = "<group>"; };
+		EED188D31DFAA4BB0033D322 /* 许巍 - 故乡.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "许巍 - 故乡.mp3"; sourceTree = "<group>"; };
+		EED188D51DFAA5690033D322 /* 周华健 - 爱相随.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "周华健 - 爱相随.mp3"; sourceTree = "<group>"; };
+		EED188D71DFAA60D0033D322 /* 周华健 - 花心.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "周华健 - 花心.mp3"; sourceTree = "<group>"; };
+		EED188D91DFAA6190033D322 /* 李健 - 风吹麦浪.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李健 - 风吹麦浪.mp3"; sourceTree = "<group>"; };
 		EEDF3BD51DF80859003F5EBC /* IMMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDF3BD81DF80859003F5EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEDF3BDA1DF80859003F5EBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +48,12 @@
 		EEDF3BDF1DF80859003F5EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEDF3BE21DF80859003F5EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEDF3BE41DF80859003F5EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDF3BEC1DF80C89003F5EBC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EEFBA6AE1DF9086C0085589D /* IMMusicPlayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMusicPlayManager.swift; sourceTree = "<group>"; };
+		EEFBA6B01DF939DF0085589D /* IMMusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMusicModel.swift; sourceTree = "<group>"; };
+		EEFBA6B21DF94A5F0085589D /* IMMusicPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMusicPlayViewController.swift; sourceTree = "<group>"; };
+		EEFBA6B41DF94A710085589D /* IMSoundPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMSoundPlayViewController.swift; sourceTree = "<group>"; };
+		EEFBA6B81DF95CBE0085589D /* 刀郎 - 谢谢你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "刀郎 - 谢谢你.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +86,38 @@
 		EEDF3BD71DF80859003F5EBC /* IMMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				EEFBA6B61DF95CBE0085589D /* Resources */,
 				EEDF3BD81DF80859003F5EBC /* AppDelegate.swift */,
 				EEDF3BDA1DF80859003F5EBC /* ViewController.swift */,
 				EEDF3BDC1DF80859003F5EBC /* Main.storyboard */,
 				EEDF3BDF1DF80859003F5EBC /* Assets.xcassets */,
 				EEDF3BE11DF80859003F5EBC /* LaunchScreen.storyboard */,
 				EEDF3BE41DF80859003F5EBC /* Info.plist */,
+				EEDF3BEC1DF80C89003F5EBC /* UIColor+Extension.swift */,
+				EED188C91DFA99D60033D322 /* UIBarButtonItem+IMExtension.swift */,
+				EEFBA6AE1DF9086C0085589D /* IMMusicPlayManager.swift */,
+				EEFBA6B01DF939DF0085589D /* IMMusicModel.swift */,
+				EEFBA6B21DF94A5F0085589D /* IMMusicPlayViewController.swift */,
+				EEFBA6B41DF94A710085589D /* IMSoundPlayViewController.swift */,
 			);
 			path = IMMusicPlayer;
+			sourceTree = "<group>";
+		};
+		EEFBA6B61DF95CBE0085589D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EED188D91DFAA6190033D322 /* 李健 - 风吹麦浪.mp3 */,
+				EED188D51DFAA5690033D322 /* 周华健 - 爱相随.mp3 */,
+				EED188D11DFAA4B10033D322 /* 伍佰 - 挪威的森林.mp3 */,
+				EED188D71DFAA60D0033D322 /* 周华健 - 花心.mp3 */,
+				EED188CF1DFAA4AB0033D322 /* 伍佰 - 浪人情歌.mp3 */,
+				EED188CD1DFAA4A40033D322 /* 林忆莲 - 伤痕(Live) - live.mp3 */,
+				EED188CB1DFAA4950033D322 /* 许茹芸 - 如果云知道.mp3 */,
+				EED188C71DFA7CB80033D322 /* in.caf */,
+				EED188D31DFAA4BB0033D322 /* 许巍 - 故乡.mp3 */,
+				EEFBA6B81DF95CBE0085589D /* 刀郎 - 谢谢你.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +152,13 @@
 				TargetAttributes = {
 					EEDF3BD41DF80859003F5EBC = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9J6U5564X4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,9 +185,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED188D21DFAA4B10033D322 /* 伍佰 - 挪威的森林.mp3 in Resources */,
+				EED188D61DFAA5690033D322 /* 周华健 - 爱相随.mp3 in Resources */,
+				EED188DA1DFAA6190033D322 /* 李健 - 风吹麦浪.mp3 in Resources */,
+				EED188CE1DFAA4A40033D322 /* 林忆莲 - 伤痕(Live) - live.mp3 in Resources */,
+				EED188CC1DFAA4950033D322 /* 许茹芸 - 如果云知道.mp3 in Resources */,
+				EED188D01DFAA4AB0033D322 /* 伍佰 - 浪人情歌.mp3 in Resources */,
 				EEDF3BE31DF80859003F5EBC /* LaunchScreen.storyboard in Resources */,
+				EED188D81DFAA60D0033D322 /* 周华健 - 花心.mp3 in Resources */,
+				EEFBA6BA1DF95CBE0085589D /* 刀郎 - 谢谢你.mp3 in Resources */,
 				EEDF3BE01DF80859003F5EBC /* Assets.xcassets in Resources */,
+				EED188C81DFA7CB80033D322 /* in.caf in Resources */,
 				EEDF3BDE1DF80859003F5EBC /* Main.storyboard in Resources */,
+				EED188D41DFAA4BB0033D322 /* 许巍 - 故乡.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED188CA1DFA99D60033D322 /* UIBarButtonItem+IMExtension.swift in Sources */,
+				EEDF3BED1DF80C89003F5EBC /* UIColor+Extension.swift in Sources */,
+				EEFBA6B11DF939DF0085589D /* IMMusicModel.swift in Sources */,
 				EEDF3BDB1DF80859003F5EBC /* ViewController.swift in Sources */,
+				EEFBA6B51DF94A710085589D /* IMSoundPlayViewController.swift in Sources */,
 				EEDF3BD91DF80859003F5EBC /* AppDelegate.swift in Sources */,
+				EEFBA6B31DF94A5F0085589D /* IMMusicPlayViewController.swift in Sources */,
+				EEFBA6AF1DF9086C0085589D /* IMMusicPlayManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +336,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J6U5564X4;
 				INFOPLIST_FILE = IMMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imWallet.IMMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +350,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J6U5564X4;
 				INFOPLIST_FILE = IMMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imWallet.IMMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +379,7 @@
 				EEDF3BE91DF80859003F5EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
